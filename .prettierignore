@@ -1,0 +1,36 @@
+# Ignore artifacts:
+build/
+coverage/
+
+# Ignore all node_modules folders:
+node_modules/
+
+# Ignore specific files:
+package-lock.json
+yarn.lock
+
+# Ignore all minified files:
+*.min.js
+
+# Ignore specific config files:
+.prettierrc
+.eslintrc.json
+
+# Ignore public or dist folders typically used in frontend projects:
+public/
+dist/
+
+# Ignore logs:
+*.log
+
+# Ignore test snapshots:
+**/__snapshots__/
+
+# Ignore generated files:
+*.generated.js
+*.generated.ts
+
+#Ignore env files:
+*.env
+.env
+.env.*
